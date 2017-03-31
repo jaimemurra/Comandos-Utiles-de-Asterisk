@@ -1,0 +1,23 @@
+Jaime Murra Te brinda Ayuda con Los Comandos Básicos de Asterisk con el siguiente listado:
+
+(Asterisk command line interface – CLI), la cual se puede ejecutar desde cualquier consola de Linux, para ejecutar comandos como mostrar los canales activos, reiniciar el asterisk, etc,
+para ejecutar los comandos ingresamos a la consola con: asterisk -r
+
+
+$cli> restart now – Reiniciar el asterisk
+$cli> sip show peers – muestra las conexiones SIP del asterisk
+$cli> sip show channels – Muestra los canales SIP activos del asterisk
+$cli> sip reload – renueva la configuración SIP del asterisk
+$cli> iax2 show peers- muestra las conexiones IAX del asterisk
+$cli> iax2 reload – renueva la configuración IAX del asterisk
+$cli> core restart gracefully – Reinicia el Asterisk con precaución (no inmediatamente, espera a que no halla llamdas).
+$cli> core stop gracefully – Detiene el Asterisk con precaución.
+$cli> core stop now – Detiene el Asterisk inmediatamente.
+$cli> core restart now – Reinicia el Asterisk inmediatamente.
+$cli> iax2 show help – Muestra los comandos del CLI
+$cli> iax2 show channels – Muestra los canales IAX activos
+$cli> core show codecs – Muestra los codecs del asterisk
+$cli> core show channels – Muestra la información de los canales.
+$cli> core show version – Muestra la versión del Asterisk.
+$cli> dialplan reload – Vuelve a cargar solo las extensiones del Asterisk.
+$cli> manager show commands – Muestra la lista de comandos del Asterisk.
